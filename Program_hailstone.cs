@@ -7,7 +7,7 @@ do
     {
         System.Console.WriteLine("Invalid input. the number has to be positive. Please try again.");
     }
-    Console.Write("Enter a positve integer value: ");
+    Console.Write("Enter a positive integer value: ");
     n = int.Parse(Console.ReadLine()!);
 }
 while (n <= 0);
@@ -18,7 +18,7 @@ do
     {
         System.Console.WriteLine("Invalid input. the number has to be positive. Please try again.");
     }
-    Console.Write("Enter a second positve integer value: ");
+    Console.Write("Enter a second positive integer value: ");
     i = int.Parse(Console.ReadLine()!);
 }
 while (i <= 0);
